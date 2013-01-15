@@ -10,6 +10,14 @@ h1
   font-weight: 400;
   float:left;
 }
+h2{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+header h1{}
+header h1 a{ text-decoration: none; color:#FFF; }
+header h1 a:hover > span.subtitle {color:#00baff;}
 
 nav
 {
@@ -67,3 +75,24 @@ span.credits
   font-weight: 500;
 }
 
+
+/*
+ * IMG
+ */
+
+ img.picture
+ {
+  width:328px;
+  border: 6px #242426 solid;
+  overflow: hidden;
+ }
+
+ img.thumbnail
+ {
+  width:148px;
+  height:148px;
+  border: 6px #242426 solid;
+ }
+
+
+.page{margin-top: 15px;}

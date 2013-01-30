@@ -15,6 +15,20 @@ h2{
   font-size: 20px;
 }
 
+h2 span.subtitle
+{
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+h2 span a
+{
+  text-decoration: none;
+  color:#4e4e4e;
+}
+
+h2 span a:hover{color:#00baff;}
+
 header h1{}
 header h1 a{ text-decoration: none; color:#FFF; }
 header h1 a:hover > span.subtitle {color:#00baff;}
@@ -52,12 +66,14 @@ nav ul li a
   margin: 0;
 }
 
-nav ul li a:hover
+nav ul li a:hover,
+nav ul li a.active
 {
   color:#FFF;
 }
 
 
+p{font-size: 13px;}
 
 
 /*
@@ -73,6 +89,13 @@ span.credits
 {
   font-size: 12px;
   font-weight: 500;
+  color:#4e4e4e;
+}
+
+span.credits a
+{
+  text-decoration: none;
+  color:#FFF;
 }
 
 
@@ -94,5 +117,19 @@ span.credits
   border: 6px #242426 solid;
  }
 
+ img.project
+ {
+  width:388px;
+  height:200px;
+  border: 6px #242426 solid;
+ }
+
 
 .page{margin-top: 15px;}
+
+
+footer
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
